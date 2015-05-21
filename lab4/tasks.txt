@@ -1,0 +1,19 @@
+https://github.com/braman/java_intro_summer
+
+1. Extend your User class from lab3. 
+Add additional functionality:
+	- put User into users package
+	- one private method
+	- one public method
+	- one final method
+ 	- one static method
+	- one protected/package method
+Create UserSearch class which will search users:
+	1. By user's name
+	2. By age (bonus)
+And then display found results.
+
+Bonus:
+Explain the advantages and disadvantages of static 
+methods
+
