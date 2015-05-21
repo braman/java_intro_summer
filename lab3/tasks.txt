@@ -1,0 +1,6 @@
+1. Create User class with name field. Then create array of User object
+with size 10. Then prompt user to enter 10 user names and put it into 
+users array.
+2. Create additional functionality to the program above, prompt user
+to enter the user name for search. And then search inside the users array
+and display how many users match the entered name.

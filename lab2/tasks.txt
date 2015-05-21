@@ -1,0 +1,4 @@
+1. Create a class Fibonaci inside which you'll store first 10 elements of
+Fibonaci sequence into int[] array and then display the array.
+2. Create a class Triangle1 inside which you'll display simple triangle 
+using one for/while statement
