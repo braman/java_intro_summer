@@ -1,0 +1,42 @@
+public class Part2 {
+	
+	public static<T extends User> T upcast(T t) {
+		if (t instanceof Student) {
+			return (Student)t;
+		} else if (t instanceof Employee) {
+			return (Employee) t;
+		}
+
+		return null;
+	}
+	public static User getInfo(Integer id) {
+		//return Employee, Student or null
+		if (id > 0 && id < 10) {
+			Student s = new Student();
+			s.id = id;
+			s.name = "Student " + id;
+			s.faculty = "FIT";
+
+			return s;			
+		} else if (id >= 10) {
+			Employee e = new Employee();
+			e.id = id;
+			e.name = "Employee " + id;
+			e.salary = (int)(Math.random() * 1000) + 10; 
+			e.company = "ABC Company";
+
+			return e;
+		} else {
+			return null;
+		}
+	}
+
+	public static void main(String args[]) {
+		User u = getInfo(12);
+		
+		Employee e = upcast(u);
+		System.out.println(e);
+		
+	}	
+
+}
