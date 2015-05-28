@@ -1,0 +1,8 @@
+Your tasks in this lab will to add the exceptions inside you're code.
+Let's assume that you'll have InvalidNameException and InvalidAgeException and so on.
+So your task is to validate the user input for the correctness of the input data, 
+for example, name could be a string with only one space and only letters;
+age could be only positive numbers between 1 and 150, and so on.
+Inside your add user operation you'll need to verify the correctness of the input data
+and then throw an exception if some field is wrong.
+Also you'll need to catch this exception some where in your code and print user friendly error.

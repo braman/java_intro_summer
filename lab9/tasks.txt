@@ -1,0 +1,3 @@
+In lab9 you'll need to run the string examples on your machine, plus:
+implement some examples with indexOf function, how to use and when to use them.
+
