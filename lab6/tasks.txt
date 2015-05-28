@@ -1,0 +1,4 @@
+Lab #6
+
+Read Chapter 21 in JH2P book & try to run all the examples inside it.
+Also you'll just need to run all the examples in Lab6 on your machine, be sure that they are running well.

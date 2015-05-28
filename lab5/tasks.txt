@@ -1,0 +1,15 @@
+Lab #5 tasks:
+
+In this task you should use inheritance and some polymorphism.
+Let's assume you had a User class from the lab4, now you'll have 
+Student and Employee classes which extends both from User class.
+Add additional parameters to Student and Employee classes, like 
+faculty, salary and so on.
+Also override toString method inside each classes above.
+You'll have only one array users where all your students and employees will be stored.
+There will be 3 operations like Add Student, Add Employee, Search.
+
+Add Student operation will promp user to enter only students fields.
+Add Employee operation will promp user to enter only employees fields.
+In the search operation you'll need to identify whether you've entered name or age, or any other field, and
+after display the users that satisfy the search criteria.

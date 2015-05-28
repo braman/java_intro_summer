@@ -1,3 +1,5 @@
+Read Chapter 17 & try to run examples inside it.
+
 In lab9 you'll need to run the string examples on your machine, plus:
 implement some examples with indexOf function, how to use and when to use them.
 
