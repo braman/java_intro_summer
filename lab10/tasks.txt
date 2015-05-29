@@ -1,0 +1,1 @@
+Try to run the code from lab10 on your machine and see what will be the output.
